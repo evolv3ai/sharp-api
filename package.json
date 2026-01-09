@@ -1,0 +1,17 @@
+{
+  "name": "sharp-api",
+  "version": "1.0.0",
+  "description": "REST API for Sharp image processing",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.2",
+    "cors": "^2.8.5"
+  }
+}
